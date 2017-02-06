@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>store</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="css/sheet1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <div class="animated fadeIn">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="store.html">
+                            <img alt="Brand" src="img/2.png" id="fire">
+                            <strong>SKATE STORE</strong>
+                        </a>
+                    </div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="all.html"><b>ALL GOODS</b></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>CONTACTS</b><span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">FACEBOOK</a></li>
+                                <li><a href="#">GMAIL</a></li>
+                                <li><a href="#">TWITTER</a></li>
+                                <li><a href="#">INSTAGRAM</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="SEARCH ...">
+                                </div>
+                            </form>
+                        </li>
+                        <li>
+                            <form class="navbar-form navbar-left">
+                                <div class="form-group">
+                                    <span><img src="img/cart.png" id="menu-toggle" alt="#"></span>
+                                    <span id="output">0</span>
+                                    <span id="dollar">$</span>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-wrapper">
+                <h2>YOU<br>BASKET</h2>
+                <img src="img/cart.png" alt="#">
+            </div>
+        </div>
+        <div class="middle">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8" id="side-right">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="img/slide2.jpg" alt="#">
+                                    <div class="carousel-caption">
+                                        <h2><b>NEW EXPERIENCE</b></h2>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/slide1.jpg" alt="#">
+                                    <div class="carousel-caption">
+                                        <h2><b>MOST POPULAR DECKS</b></h2>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/slide3.jpg" alt="#">
+                                    <div class="carousel-caption">
+                                        <h2><b>SKATEBOARDING SHOES</b></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="side-left">
+                        <div class="nail">
+                            <a href="all.html">
+                                <img src="img/side7.jpg" alt="#">
+                                <div class="caption">
+                                    <h5>Popular brand shoes</h5>
+                                    <p>Skating shoes!</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="nail">
+                            <a href="all.html" id="left">
+                                <img src="img/side4.jpg" alt="#">
+                                <div class="caption">
+                                    <h5>Exclusive decks</h5>
+                                    <p>Only for you!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2" id="next1">
+                        <div class="nail">
+                            <a href="https://en.wikipedia.org/wiki/Skateboarding">
+                                <img src="img/side5.jpg" alt="#">
+                                <div class="caption">
+                                    <h5>Brand name</h5>
+                                    <p>Information</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2" id="next2">
+                        <div class="nail">
+                            <a href="https://en.wikipedia.org/wiki/Skateboarding">
+                                <img src="img/side6.jpg" alt="#">
+                                <div class="caption">
+                                    <h5>Brand name</h5>
+                                    <p>Information</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2" id="next3">
+                        <div class="nail">
+                            <a href="https://en.wikipedia.org/wiki/Skateboarding">
+                                <img src="img/side8.jpg" alt="#">
+                                <div class="caption">
+                                    <h5>Brand name</h5>
+                                    <p>Information</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2" id="next4">
+                        <div class="nail">
+                            <a href="https://en.wikipedia.org/wiki/Skateboarding">
+                                <img src="img/side9.png" alt="#">
+                                <div class="caption">
+                                    <h5>Brand name</h5>
+                                    <p>Information</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2" id="next5">
+                        <div class="nail">
+                            <a href="https://en.wikipedia.org/wiki/Skateboarding">
+                                <img src="img/side10.jpg" alt="#">
+                                <div class="caption">
+                                    <h5>Brand name</h5>
+                                    <p>Information</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2" id="next6">
+                        <div class="nail">
+                            <a href="https://en.wikipedia.org/wiki/Skateboarding">
+                                <img src="img/side11.jpg" alt="#">
+                                <div class="caption">
+                                    <h5>Brand name</h5>
+                                    <p>Information</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6"><img src="img/info.jpg" alt="#"></div>
+                    <div class="col-md-6">
+                        <h2><b>What do you know about scateboarding ?</b></h2> It occurred to me this morning that Skateboarding has been around for quite some time now. People where shredding on clay wheels long before I was born paving the way for what has surely become a global phenomenon. It seems to me that Skateboarding is reaching heights never dreamed of and is finding its place among traditional sports like baseball and football. Parents aren’t so resistant to the idea of their children preferring to skate versus trying out for short stop on the HS Baseball team. I find this fascinating that in such a short time Skateboarding has gained such ground. Lets dive a little deeper into the history that’s shaped Skateboarding today.
+                        <br>
+                        <h3>1950s</h3> Surfers in California get the bright idea to surf concrete and invent Skateboarding. The origin of the first skateboard has never been proven as it seems to have been the spontaneous invention of multiple people. Wooden boards with roller skate wheels slapped on the bottom where the makings of the original boards these pioneers took to the streets. Could you imagine the looks on the faces of people seeing this for the first time? Long haired shaggy surfer duded ripping up the streets on 2×4’s and roller skate wheels! The world ‘Radical’ comes to mind in such true original form.
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-next">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>1960s</h3> By 1963 Skateboarding was all the rage. Popularity of the sport was at its peak. Companies such as Jack’s, Hobie, and Makaha started having real competitions consisting of Downhill Slalom and Freestyle where skaters like Torger Johnson, Woody Woodward and Danny Berer paved the way for future skaters. Then in 1965 for some reason Skateboarding seems to simply die. Considered to be a fad that came and went, skateboarding seemed to fade over night. Some few stayed true to the sport and continued to create homemade boards and fine tune their craft. One of the reasons I suspect skateboarding loosing some of its ground was the fact that the sport was very dangerous. The clay wheels they used were everything but safe and lead to many injuries.
+                        <br>
+                        <h3>1970s</h3> Then like all things, in a moment, everything changed for skateboarding. The invention of urethane wheels by Frank Nasworthy in 1972 made it possible for skateboarding to make its comeback. He started the company Cadillac Wheels. In 1975 skateboarding got the boost it needed. In Del Mar, California a slalom and freestyle contest was held at the Ocean Festival. That day, the Zephyr team showed the world what skateboarding could be. They rode their boards like no one had in the public eye, low and smooth, and skateboarding was taken from being a hobby to something serious and exciting. The Zephyr team had many members but as some of you might know the most notable of them where Tony Alva, Jay Adams and Stacy Peralta. Then in 1978 Alan Gelfand (nicknamed “Ollie”) invented a maneuver that gave skateboarding another revolutionary jump. He would slam his back foot down on the tail of his board and jump, thereby popping himself and the board into the air. The ollie was born, a trick that completely revolutionized skateboarding. At the end of the 1970s skateboarding took another hit when the public skateparks that were being built suffered from the outrageously hight insurance rates due to the danger factor of skateboarding.
+                        <br>
+                        <h3>2000s</h3> Skateparks pop up everywhere and skateboarding video games lets every kid be a skater. Tons of companies emerge and become more and more acceptable in society. The notion of skateboarders being criminals starts to dwindle. The X-Games continues to become more and more popular with Skateboarding at the helm. One of the big factors today that makes skateboarding so huge is the fact that pros make real money. Wining events can bring in hundreds of thousands of dollars. Kids are realizing that you don’t have to become a doctor or lawyer to make a buck. Skateboarding has also played a big role in fashion earning its place among the masses. Companies like Diamond Supply Co, Hurley, Vans, and RVCA all making millions off the skateboarding lifestyle. If this is what happened in the last 60 years I can’t help but wonder what skateboarding has in store in the next 60 years. I find this fascinating that in such a short time Skateboarding has gained such ground. Lets dive a little deeper into the history that’s shaped Skateboarding today. I find this fascinating that in such a short time Skateboarding has gained such ground. Lets dive a little deeper into the history that’s shaped Skateboarding today.
+                    </div>
+                    <div class="col-md-6" id="info-next">
+                        <img src="img/info-next.jpg" alt="#">
+                        <img src="img/infofin.jpg" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comments">
+            <div class="container">
+                <h2>Your comments.</h2>
+                <p>The form below contains a textarea for comments:</p>
+                <form>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <a href="#top" class="bktop"><b>^</b></a>
+    <script src="js/jquery.js"></script>
+    <script src="js/top.js"></script>
+</body>
+
+</html>
